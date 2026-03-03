@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add to Cart</title>
+</head>
+<body>
+    <h2>Add Product to Cart</h2>
+
+    <form action="/add_to_cart" method="POST">
+        <label>User ID:</label><br>
+        <input type="number" name="user_id" required><br><br>
+
+        <label>Product ID:</label><br>
+        <input type="number" name="product_id" required><br><br>
+
+        <label>Quantity:</label><br>
+        <input type="number" name="quantity" required><br><br>
+
+        <button type="submit">Add to Cart</button>
+    </form>
+
+</body>
+</html>
